@@ -1,0 +1,36 @@
+{
+  "name": "archiver-zip-encrypted-zip64",
+  "version": "1.0.11",
+  "description": "AES-256 and legacy Zip 2.0 encryption for Zip files",
+  "dependencies": {
+    "aes-js": "3.1.2",
+    "buffer-crc32": "0.2.13",
+    "compress-commons": "5.0.0",
+    "crc32-stream": "4.0.2",
+    "zip-stream": "4.1.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lianyzhou/archiver-zip-encrypted.git"
+  },
+  "files": {
+    "lib",
+    "index.js",
+    "yarn.lock",
+    "README.md"
+  },
+  "author": "Zhou Lianyi <lianyzhou@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/lianyzhou/archiver-zip-encrypted",
+  "keywords": [
+    "zip",
+    "encryption",
+    "aes",
+    "archiver",
+    "password"
+  ]
+}
